@@ -1,0 +1,20 @@
+{
+  "name": "opszero-lambda-template",
+  "version": "1.0.0",
+  "description": "opszero-lambda-template",
+  "main": "src/index.js",
+  "repository": "https://github.com/abhiyerra/opszero-lambda-template",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^11.9.4",
+    "axios": "^0.18.0"
+  },
+  "scripts": {
+    "test": "mocha tests/unit/"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
