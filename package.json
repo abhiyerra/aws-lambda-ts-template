@@ -1,7 +1,7 @@
 {
   "name": "opszero-typescript-aws-lambda-template",
   "version": "1.0.0",
-  "description": "Default Template for Serverless functions on opsZero.",
+  "description": "Default template for AWS Lambda functions on opsZero.",
   "main": "build/index.js",
   "repository": "https://github.com/abhiyerra/opszero-typescript-aws-lambda-template",
   "author": "opsZero",
