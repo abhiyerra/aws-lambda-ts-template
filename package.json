@@ -1,10 +1,10 @@
 {
-  "name": "opszero-lambda-template",
+  "name": "opszero-typescript-aws-lambda-template",
   "version": "1.0.0",
-  "description": "opszero-lambda-template",
-  "main": "src/index.js",
-  "repository": "https://github.com/abhiyerra/opszero-lambda-template",
-  "author": "SAM CLI",
+  "description": "Default Template for Serverless functions on opsZero.",
+  "main": "build/index.js",
+  "repository": "https://github.com/abhiyerra/opszero-typescript-aws-lambda-template",
+  "author": "opsZero",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^11.9.4",
@@ -12,8 +12,7 @@
   },
   "scripts": {
     "test": "mocha tests/unit/",
-    "build": "tsc && cp package.json ./build/ && cd build && npm install --production",
-    "release": "npm run build && aws"
+    "build": "tsc && cp package.json ./build/ && cd build && npm install --production"
   },
   "devDependencies": {
     "chai": "^4.1.2",
