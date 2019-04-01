@@ -7,7 +7,8 @@
   "author": "opsZero",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^11.9.4"
+    "@types/node": "^11.9.4",
+    "typescript": "^3.4.1"
   },
   "scripts": {
     "test": "mocha tests/unit/",
