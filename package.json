@@ -12,7 +12,7 @@
   },
   "scripts": {
     "test": "mocha tests/unit/",
-    "build": "tsc && cp package.json ./build/ && cd build && npm install --production"
+    "build": "tsc && cp package.json ./build/package.json && cd build && docker run --rm -v \"$PWD\":/var/task lambci/lambda:build-nodejs8.10 npm install --production"
   },
   "devDependencies": {
     "chai": "^4.1.2",
