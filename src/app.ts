@@ -1,3 +1,5 @@
+import 'envkey'
+
 export async function lambdaHandler(event, context) {
     return {
         'statusCode': 200,
