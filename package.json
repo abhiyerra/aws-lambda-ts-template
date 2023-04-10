@@ -8,7 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/node": "^11.9.4",
-    "aws-sdk": "^2.814.0",
+    "aws-sdk": "^2.1354.0",
     "envkey": "^1.2.6",
     "typescript": "^3.4.1"
   },
